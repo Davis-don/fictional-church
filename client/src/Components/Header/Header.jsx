@@ -19,14 +19,15 @@ function Header() {
         <div className="logo-name-right">
         <ul className='list-unstyled nav-links-ul'>
           <li className='link-item'>Home</li>
-          <li className='link-item'>About us</li>
+          <li className='link-item'>About</li>
           <li className='link-item'>Churches</li>
           <li className='link-item'>Catechism</li>
           <li className='link-item'>Events</li>
           <li className='link-item'>Gallery</li>
           <li className='link-item'>Contact</li>
-
+          <li><button style={{fontSize:'2rem',backgroundImage:'var(---btn-color-gradient)'}} className='btn login-btn text-light' type='button'>Login</button></li>
         </ul>
+        
         <div className="menu-icon">
           <button className='btn' type='button'>Login</button>
         <CiMenuBurger  className='actual-menu-icon'/>

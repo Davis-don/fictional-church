@@ -1,0 +1,75 @@
+.overall-carosel-container{
+
+}
+.overall-items-carosel-holder{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.carosel-opacity-regulator{
+position: absolute;
+z-index: +2;
+top: 0px;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: .7;
+}
+.overall-items-carosel-holder img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.on-carosel-text-box{
+    position:absolute; 
+    z-index: +3;
+    top:60%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    width:50%; 
+}
+@media screen and (max-width:28.125em) {
+    .on-carosel-text-box{
+        position:absolute; 
+        z-index: +3;
+        top:70%; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+        width:100%; 
+    }
+}
+.carosel-heading{
+font-size: 5rem;
+}
+@media screen and (max-width:55em) {
+    .carosel-heading{
+        font-size: 3rem;
+        }
+}
+@media screen and (max-width:15.625em) {
+    .carosel-heading{
+        font-size: 2rem;
+        }
+}
+.carosel-p{
+font-size: 2rem;
+font-weight: bold;
+margin-top: 2rem;
+}
+@media screen and (max-width:55em) {
+    .carosel-p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        } 
+}
+@media screen and (max-width:15.625em) {
+    .carosel-p{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        }
+}
+.button-container{
+margin-top: 5rem;
+}
