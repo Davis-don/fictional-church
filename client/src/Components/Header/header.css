@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.overall-header-section{
+height: 30rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@media screen and (max-width:69.375em) {
+    .overall-header-section{
+        height: max-content;
+    }
+}
+.header-content-holders{
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+@media screen and (max-width:78.75em) {
+    .header-content-holders{
+        background-color: white;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+    }
+}
+@media screen and (max-width:69.375em) {
+    .header-content-holders{
+        background-color: white;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+        
+    }
+}
+@media screen and (max-width:21.5625em) {
+    .header-content-holders{
+        padding: .5rem;
+    }
+}
+@media screen and (max-width:14.375em) {
+    .header-content-holders{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.logo-name-left{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+}
+@media screen and (max-width:31.875em) {
+    .logo-name-left{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+.logo-image{
+width: 8rem;
+height: 8rem;
+}
+@media screen and (max-width:14.375em) {
+    .logo-image{
+        width: 20vw;
+        height: 20vw;
+        }
+}
+
+.logo-image img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.brand-name h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+}
+@media screen and (max-width:31.875em) {
+    .brand-name h1{
+        font-family: "Lobster", sans-serif;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:18.75em) {
+    .brand-name h1{
+        font-family: "Lobster", sans-serif;
+        font-size: 5vw;
+    }
+}
+.nav-links-ul{
+display: flex;
+flex-direction:row;
+gap: 2rem;
+margin: 0 15px;
+transition: all 0.3s ease;
+}
+@media screen and (min-width:61.876em) {
+    .menu-icon{
+        display: none;
+        }
+}
+
+
+
+@media screen and (max-width:61.876em) {
+    .nav-links-ul{
+        display: none;
+    }
+    .menu-icon{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+justify-content: center;
+align-items: center;
+
+    }
+    .menu-icon button{
+    background-image: linear-gradient(rgb(181, 12, 172), rgb(31, 3, 74));
+    width: 13rem;
+    height: 5rem;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: 20px;
+    }
+    @media screen and (max-width:31.875em) {
+        .menu-icon button{
+            width: 10rem;
+            height: max-content;
+            padding: .5rem;
+        }
+    }
+    .actual-menu-icon{
+    font-size: 3.5rem;
+    }
+
+    @media screen  and (max-width:15em){
+        .actual-menu-icon{
+            font-size: 2.5rem;
+            }
+    }
+}
+.nav-links-ul li:hover {
+    transform: scale(1.1); 
+}
+
+.nav-links-ul li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px; 
+    width: 0;
+    height: 3px;
+    background-color: #ff69b4; 
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-links-ul li:hover::after {
+    width: 100%; 
+}
+
+.nav-links-ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links-ul li:hover a {
+    color: #ff69b4; 
+}
+
+
+
+
+
+
+
+
+
+
+.link-item{
+font-size: 2rem;
+font-weight: bold;
+}
