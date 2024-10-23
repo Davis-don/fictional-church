@@ -25,3 +25,38 @@ height: 100%;
 height: 100vh;
 }
 /* End of about section */
+
+/* Start of scroll btn container */
+.scroll-icon-container{
+position: absolute;
+z-index: +3;
+width: max-content;
+height: max-content;
+top:80vh;
+left: 90vw;
+}
+@media screen and (max-width:31.25em) {
+    .scroll-icon-container{
+        top:85vh;
+        left: 80vw;
+    }
+   
+}
+@media screen and (max-width:11.25em) {
+    .scroll-icon-container{
+        top:85vh;
+        left: 50vw;
+    }
+   
+}
+.arrow-down-icon{
+font-size: 5rem;
+color:rgb(144, 31, 123);
+}
+@media screen and (max-width:31.25em) {
+    .arrow-down-icon{
+        font-size: 3rem;
+        color:rgb(144, 31, 123);
+        }
+}
+/* End of Scroll btn container */
