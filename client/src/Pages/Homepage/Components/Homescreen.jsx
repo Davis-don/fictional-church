@@ -30,9 +30,9 @@ function Homescreen() {
       <div ref={scrollRef} className="about-homepage-container">
         <Abouthomepg />
       </div>
-      <div className="counter-cards-container">
+      {/* <div className="counter-cards-container">
      <Countercards/>
-      </div>
+      </div> */}
     </div>
   );
 }
