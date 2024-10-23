@@ -1,4 +1,4 @@
-.overall-counter-card{
+/* .overall-counter-card{
 background-color: rgb(40, 40, 40);
 border-radius: 10px;
 height: 15rem;
@@ -8,7 +8,29 @@ align-items: center;
 justify-content: center;
 gap: 2rem;
 
-}
+} */
+.overall-counter-card {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4),   /* Main shadow for depth */
+                0px 2px 4px rgba(255, 255, 255, 0.1) inset;  /* Inner highlight for 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition for hover effect */
+  }
+  
+  /* Add hover effect to further enhance the 3D feel */
+  .overall-counter-card:hover {
+    transform: translateY(-10px); /* Lift the card slightly */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5), /* Enhanced shadow on hover */
+                0px 2px 6px rgba(255, 255, 255, 0.15) inset; /* Stronger inner highlight */
+  }
+  
+  
 .icon-spec{
 color: rgb(76, 3, 72);
 font-size: 8rem;

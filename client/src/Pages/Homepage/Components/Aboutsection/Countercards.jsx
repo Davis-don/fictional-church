@@ -1,10 +1,13 @@
 import React from 'react'
 import './countercards.css'
 import Countercard from './Countercard'
-import counterData from '../../../Data/counterdata'
+import counterData from '../../../../Data/counterdata'
 
 function Countercards() {
   return (
+    <div className='overall-card-div'>
+    <h1>Living in God's Amazing Grace!</h1>
+    <p>Below are some of the statistical facts about our parish - and these change with every passing day.</p>
     <div className='overall-counter-cards'>
         {
             counterData.map((data)=>{
@@ -13,6 +16,7 @@ function Countercards() {
                 )
             })
         }
+        </div>
         </div>
   )
 }

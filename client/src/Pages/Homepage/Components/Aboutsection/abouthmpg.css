@@ -1,117 +1,31 @@
-.overall-homepage-about {
-  display: flex;
-  flex-direction: row;
-  background-color: #1c141f;
-  justify-content: center;
-  align-items: center;
-  height: max-content
+.overall-homepage-about{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+height: max-content;
 }
-@media screen and (max-width: 50em) {
-  .overall-homepage-about {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-  }
+.left-side-img-hmpg{
+height: 100%;
 }
-@media screen and (min-width: 50.001em) {
-  .left-side-img-hmpg {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.image-container-div{
+/* height: 50vh;
+width: 30vh; */
 }
+.image-container-div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.right-side-img-hmpg{
 
-.image-container-div {
-  width: 50rem;
-  height: 50rem;
 }
-@media screen and (max-width: 62.5em) {
-  .image-container-div {
-    width: 40rem;
-    height: 40rem;
-  }
+.about-title-heading{
+text-align: center;
+font-size: 4rem;
 }
-@media screen and (max-width: 28.75em) {
-  .image-container-div {
-    width: 60vw;
-    height: 60vw;
-  }
+.second-title-heading{
+text-align: center;
 }
-.image-container-div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@media screen and (min-width: 50.001em) {
-  .right-side-img-hmpg {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
+.about-paragraph{
+font-size: 2rem;
 
-.about-title-heading {
-  font-size: 4rem;
-}
-@media screen and (max-width: 50.001em) {
-  .about-title-heading {
-    font-size: 4rem;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 31.25em) {
-  .about-title-heading {
-    font-size: 3rem;
-   
-  }
-}
-@media screen and (max-width: 23.125em) {
-  .about-title-heading {
-    font-size: 10vw;
-    text-align: center;
-  }
-}
-.second-title-heading {
-  color: white;
-}
-@media screen and (max-width: 50.001em) {
-  .second-title-heading {
-    color: white;
-    text-align: center;
-  }
-}
-
-.about-paragraph {
-  color: white;
-  font-size: 2rem;
-}
-@media screen and (max-width: 31.25em) {
-  .about-paragraph {
-    font-size: 1.7rem;
-  }
-}
-@media screen and (max-width: 23.125em) {
-  .about-paragraph {
-    color: white;
-    font-size: 1.7rem;
-  }
-}
-.actual-list-ul {
-  width: 100%;
-  margin-top: 2rem;
-}
-.ul-item {
-  font-size: 2rem;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: start;
-  color: white;
-}
-@media screen and (max-width: 72.5em) {
 }
