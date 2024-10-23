@@ -7,7 +7,7 @@ import { CiMenuBurger } from "react-icons/ci";
 function Header() {
   return (
     <div className="overall-header-section">
-      <div className="header-content-holders">
+      <div className="header-content-holders container-fluid">
         <div className="logo-name-left">
           <div className="logo-image">
             <img src={logo} alt="Jesus Christ" className="rounded-circle" />
