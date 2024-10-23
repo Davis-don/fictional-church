@@ -1,8 +1,8 @@
 import image1 from '../assets/edwin-andrade-6liebVeAfrY-unsplash.jpg';
 import image2 from '../assets/Guardian Angel.jpg';
-import Aboutconcern from '../Components/Carosel/Concerns/Aboutconcern';
-import Churchesconcern from '../Components/Carosel/Concerns/Churchesconcern';
-import EventsConcern from '../Components/Carosel/Concerns/EventsConcern';
+import Aboutconcern from '../Pages/Homepage/Components/Carosel/Concerns/Aboutconcern';
+import Churchesconcern from '../Pages/Homepage/Components/Carosel/Concerns/Churchesconcern';
+import EventsConcern from '../Pages/Homepage/Components/Carosel/Concerns/EventsConcern';
 
 const caroselDataHero = [
     {

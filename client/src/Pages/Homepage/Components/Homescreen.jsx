@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from '../Components/Header/Header'
+import Header from '../../../Utilities/Header/Header'
 import './Homepage.css'
-import Carosel from '../Components/Carosel/Carosel'
+import Carosel from './Carosel/Carosel'
+import Abouthomepg from './Aboutsection/Abouthomepg'
 
 function Homescreen() {
   return (
@@ -13,10 +14,10 @@ function Homescreen() {
       <div className="carosel-homepage">
     <Carosel/>
       </div>
-        
-        
-        
-   
+      </div>
+
+      <div className="about-homepage-container">
+      <Abouthomepg/>
       </div>
         
         
