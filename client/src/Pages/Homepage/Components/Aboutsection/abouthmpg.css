@@ -1,14 +1,62 @@
 .overall-homepage-about{
+padding: 4rem;
+background-color: rgb(225, 222, 222);
+}
+.abt-hmpg-heading-main{
+    font-family: "Merienda", cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+@media screen and (max-width:43.75em){
+    .abt-hmpg-heading-main {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:43.75em){
+    .abt-hmpg-heading-main {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:23.125em){
+    .abt-hmpg-heading-main {
+        font-size: 5vw;
+    }
+}
+
+
+.hmpg-p-abt{
+text-align: center;
+font-size: 1.5rem;
+}
+.cards-holder-abt-homepage{
 display: grid;
-grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+grid-template-columns: repeat(auto-fit,minmax(45rem,1fr));
 height: max-content;
 }
-.left-side-img-hmpg{
-height: 100%;
+@media screen and (max-width:43.75em){
+    .cards-holder-abt-homepage{
+        display: flex;
+        flex-direction: column;
+        } 
 }
+.left-side-img-hmpg{
+display: flex;
+justify-content: center;
+align-self: center;
+}
+/* .left-side-img-hmpg img{
+width: 50rem;
+height: 50rem;
+} */
 .image-container-div{
-/* height: 50vh;
-width: 30vh; */
+    width: 40vw;
+height:max-content;
+}
+@media screen  and (max-width:61.1875em){
+    .image-container-div{
+        width: 70vw;
+        height: 80vh;
+    }
 }
 .image-container-div img{
 width: 100%;
@@ -22,10 +70,15 @@ object-fit: cover;
 text-align: center;
 font-size: 4rem;
 }
+@media screen  and (max-width:33.125em){
+    .about-title-heading{
+        text-align: center;
+        font-size: 3rem;
+        }  
+}
 .second-title-heading{
 text-align: center;
 }
 .about-paragraph{
 font-size: 2rem;
-
 }

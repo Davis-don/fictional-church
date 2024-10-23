@@ -5,19 +5,23 @@ import fatherImg from "../../../../assets/father-img.jpg";
 
 function Abouthomepg() {
   return (
-    <div className="overall-homepage-about container">
-      {/* Start of left side */}
+    <div className="overall-homepage-about">
+      <h1 className="abt-hmpg-heading-main">welcome to our church</h1>
+      <p className="hmpg-p-abt">It's the start of an amazing journey of faith</p>
+      <div className="cards-holder-abt-homepage">
+       {/* Start of left side */}
       <div className="left-side-img-hmpg ">
         <div className="image-container-div">
           <img
             src={fatherImg}
             alt=" image of priest"
-            className="container-fluid"
+            className="container-fluid rounded"
           />
         </div>
       </div>
       {/* End of left side */}
 
+      
       {/* start of right side */}
 
       <div className="right-side-img-hmpg ">
@@ -50,6 +54,10 @@ function Abouthomepg() {
         
       </div>
       {/* End of right side */}
+      </div>
+      
+      
+
     </div>
   );
 }

@@ -35,7 +35,7 @@ function Homescreen() {
         {/* Start of about section */}
       
       <div className="about-section" ref={aboutSectionRef}>
-        {/* <Abouthomepg/> */}
+        <Abouthomepg/>
       </div>
       {/* End of about section */}
 
