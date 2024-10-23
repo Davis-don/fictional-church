@@ -33,7 +33,7 @@
   .on-carosel-text-box {
     position: absolute;
     z-index: +3;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
