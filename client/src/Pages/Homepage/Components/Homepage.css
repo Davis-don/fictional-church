@@ -1,62 +1,72 @@
 /* Start of headeer hero section css */
 
-.overall-homapage-container{
-position: relative;
+.overall-homapage-container {
+  position: relative;
 }
-.header-hero-container{
-    position: relative;
-    height: 100vh;
+.header-hero-container {
+  position: relative;
+  height: 100vh;
 }
-.header-homepage{
-position: absolute;
-z-index: +2;
-width: 100%;
+.header-homepage {
+  position: absolute;
+  z-index: +2;
+  width: 100%;
 }
-.carosel-homepage{
-position: absolute;
-z-index: +1;
-width: 100%;
-height: 100%;
+.carosel-homepage {
+  position: absolute;
+  z-index: +1;
+  width: 100%;
+  height: 100%;
 }
 /* End of header hero section css */
 
 /* Start of about section */
-.about-homepage-container{
-height: 100vh;
+.about-homepage-container {
+  height: 100vh;
 }
 /* End of about section */
 
 /* Start of scroll btn container */
-.scroll-icon-container{
-position: absolute;
-z-index: +3;
-width: max-content;
-height: max-content;
-top:80vh;
-left: 90vw;
+.scroll-icon-container {
+  position: absolute;
+  z-index: +3;
+  width: max-content;
+  height: max-content;
+  top: 80vh;
+  left: 90vw;
 }
-@media screen and (max-width:31.25em) {
-    .scroll-icon-container{
-        top:85vh;
-        left: 80vw;
-    }
-   
+@media screen and (max-width: 31.25em) {
+  .scroll-icon-container {
+    top: 85vh;
+    left: 80vw;
+  }
 }
-@media screen and (max-width:11.25em) {
-    .scroll-icon-container{
-        top:85vh;
-        left: 50vw;
-    }
-   
+@media screen and (max-width: 11.25em) {
+  .scroll-icon-container {
+    top: 85vh;
+    left: 50vw;
+  }
 }
-.arrow-down-icon{
-font-size: 5rem;
-color:rgb(144, 31, 123);
+.arrow-down-icon {
+  font-size: 5rem;
+  color: rgb(144, 31, 123);
 }
-@media screen and (max-width:31.25em) {
-    .arrow-down-icon{
-        font-size: 3rem;
-        color:rgb(144, 31, 123);
-        }
+@media screen and (max-width: 31.25em) {
+  .arrow-down-icon {
+    font-size: 3rem;
+    color: rgb(144, 31, 123);
+  }
 }
 /* End of Scroll btn container */
+
+.about-homepage-container{
+  background-color: #1C141F;
+}
+/* Start of counter card container */
+.counter-cards-container{
+  position: relative;
+background-color: #1C141F;
+height: max-content;
+
+}
+/* End of counter card container */

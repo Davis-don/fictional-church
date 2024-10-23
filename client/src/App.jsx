@@ -1,14 +1,12 @@
-import './App.css'
-import Homescreen from './Pages/Homepage/Components/Homescreen'
+import "./App.css";
+import Homescreen from "./Pages/Homepage/Components/Homescreen";
 
 function App() {
-  
-
   return (
     <div className="app">
-     <Homescreen/>
+      <Homescreen />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

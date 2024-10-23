@@ -1,0 +1,21 @@
+.overall-counter-card{
+background-color: rgb(40, 40, 40);
+border-radius: 10px;
+height: 15rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+
+}
+.icon-spec{
+color: rgb(76, 3, 72);
+font-size: 8rem;
+}
+.count-text{
+font-size: 3rem;
+}
+.desc-text{
+font-size: 1.5rem;
+}

@@ -1,16 +1,16 @@
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-:root{
---header-overall-color:white;
----btn-color-gradient:linear-gradient(rgb(181, 12, 172), rgb(31, 3, 74))
+:root {
+  --header-overall-color: white;
+  ---btn-color-gradient: linear-gradient(rgb(181, 12, 172), rgb(31, 3, 74));
 }
-html{
-font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-size: 1.6rem;
+body {
+  font-size: 1.6rem;
 }

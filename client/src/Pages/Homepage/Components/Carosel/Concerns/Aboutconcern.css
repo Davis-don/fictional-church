@@ -1,12 +1,9 @@
-.overall-about-concern{
-
+.overall-about-concern {
 }
-.overall-about-concern button{
-    background-image:var(---btn-color-gradient);
-    color: white;
-    width: 13rem;
-    height: 5rem;
-    font-size: 1.7rem;
+.overall-about-concern button {
+  background-image: var(---btn-color-gradient);
+  color: white;
+  width: 13rem;
+  height: 5rem;
+  font-size: 1.7rem;
 }
-
-

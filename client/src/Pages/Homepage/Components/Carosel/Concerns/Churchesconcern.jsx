@@ -1,12 +1,12 @@
-import React from 'react'
-import './churchconcern.css'
+import React from "react";
+import "./churchconcern.css";
 
 function Churchesconcern() {
   return (
-    <div className='overall-churches-concern'>
-        <button className='btn'>Churches</button>
-        </div>
-  )
+    <div className="overall-churches-concern">
+      <button className="btn">Churches</button>
+    </div>
+  );
 }
 
-export default Churchesconcern
+export default Churchesconcern;
