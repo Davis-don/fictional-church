@@ -4,7 +4,7 @@
   background-color: #1c141f;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: max-content
 }
 @media screen and (max-width: 50em) {
   .overall-homepage-about {
@@ -64,6 +64,12 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 31.25em) {
+  .about-title-heading {
+    font-size: 3rem;
+   
+  }
+}
 @media screen and (max-width: 23.125em) {
   .about-title-heading {
     font-size: 10vw;
@@ -79,17 +85,20 @@
     text-align: center;
   }
 }
-/* @media screen  and (max-width:72.5em){
-    
-} */
+
 .about-paragraph {
   color: white;
   font-size: 2rem;
 }
+@media screen and (max-width: 31.25em) {
+  .about-paragraph {
+    font-size: 1.7rem;
+  }
+}
 @media screen and (max-width: 23.125em) {
   .about-paragraph {
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 .actual-list-ul {

@@ -3,6 +3,7 @@ import './Homepage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carosel from './Hero/Carosel/Carosel';
 import { FaArrowDown } from "react-icons/fa";
+import Abouthomepg from './Aboutsection/Abouthomepg';
 
 function Homescreen() {
   
@@ -30,7 +31,7 @@ function Homescreen() {
 
       
       <div className="about-section" ref={aboutSectionRef}>
-        
+        <Abouthomepg/>
       </div>
     </div>
   );
@@ -38,31 +39,3 @@ function Homescreen() {
 
 export default Homescreen;
 
-
-
-// import React from 'react'
-// import './Homepage.css'
-// import 'bootstrap/dist/css/bootstrap.min.css'
-// import Carosel from './Hero/Carosel/Carosel'
-// import { FaArrowDown } from "react-icons/fa";
-
-// function Homescreen() {
-//   return (
-//     <div className='ovearall-homescreen-container'>
-//     <div className="homepage-hero-section">
-//       <div className="carosel-container">
-//       <Carosel/>
-//       </div>
-    
-//     <div className="scroll-btn"><FaArrowDown className='actual-btn-arrow'/></div>
-//     </div>
-
-
-//     <div className="about-section">
-
-//     </div>
-//       </div>
-//   )
-// }
-
-// export default Homescreen
