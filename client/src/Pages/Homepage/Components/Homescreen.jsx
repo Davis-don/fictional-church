@@ -5,6 +5,7 @@ import Carosel from './Hero/Carosel/Carosel';
 import { FaArrowDown } from "react-icons/fa";
 import Abouthomepg from './Aboutsection/Abouthomepg';
 import Countercards from './Aboutsection/Countercards';
+import Massorder from './Massorder/Massorder';
 
 function Homescreen() {
   
@@ -45,6 +46,11 @@ function Homescreen() {
       <Countercards/>
     </div>
     {/* End of statistics section */}
+    {/* Start of mass order section */}
+    <div className="mass-order-home">
+      <Massorder/>
+    </div>
+    {/* End of massorder section */}
 
     </div>
       );
