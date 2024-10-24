@@ -25,13 +25,13 @@ function Countercard({ iconSpec, count, description }) {
   }, [count]);
 
   return (
-    <div className='overall-counter-card'>
+    <div className='overall-counter-card card'>
       <div className="left-side-card">
         <h1 className='icon-spec'>{iconSpec}</h1>
       </div>
       <div className="right-side-card">
-        <h1 className='text-light count-text'>{currentCount + " +"}</h1>
-        <p className='text-light desc-text'>{description}</p>
+        <h1 className=' count-text'>{currentCount + " +"}</h1>
+        <p className=' desc-text'>{description}</p>
       </div>
     </div>
   );
