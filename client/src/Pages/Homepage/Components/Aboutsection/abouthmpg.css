@@ -4,20 +4,51 @@
 
 
 .overall-homepage-about{
-padding: 4rem;
+position: relative;
 background-color:#FFFFFF;
+height: max-content;
+margin-top: 3rem;
+
 }
+.read-more-container{
+
+}
+
 
 .abt-hmpg-heading-main{
     font-family: "Roboto", sans-serif;
     font-size: 4rem;
     text-align: center;
 }
-
+@media screen and  (max-width:31.25em) {
+    .abt-hmpg-heading-main{
+        font-size: 3.5rem;
+    } 
+}
+@media screen and  (max-width:22.5em) {
+    .abt-hmpg-heading-main{
+        font-size: 2.5rem;
+    } 
+}
+@media screen and  (max-width:16.5em) {
+    .abt-hmpg-heading-main{
+        font-size: 2rem;
+    } 
+}
 .hmpg-p-abt{
     font-family: "League Spartan", sans-serif;
     text-align: center;
     font-size: 1.5rem;
+    }
+    @media screen and  (max-width:31.25em) {
+        .hmpg-p-abt{
+            font-size: 1.3rem;
+            }
+    }
+    @media screen and  (max-width:21.25em) {
+        .hmpg-p-abt{
+            font-size: 1rem;
+        }
     }
 
     .cards-holder-abt-homepage{
@@ -32,16 +63,25 @@ background-color:#FFFFFF;
                 height: 80vh;
                 }
         }
+        
         @media screen and (max-width:56.25em) {
             .cards-holder-abt-homepage{
                 gap: 3rem;
                 }
+        }
+        @media screen and (max-width:43.125em) {
+            .cards-holder-abt-homepage{
+                display: flex;
+                flex-direction: column;
+                height: max-content;
+            }
         }
        
         .left-side-img-hmpg{
             display: flex;
             justify-content: center;
             align-items: center;
+            
             }
 
             .image-container-div{
@@ -61,6 +101,20 @@ background-color:#FFFFFF;
                     height: 30rem;
                 }
             }
+            @media screen and (max-width:46.875em) {
+                .image-container-div{
+                    width: 100%;
+                    height: 100%;
+                
+                }
+            }
+            @media screen and (max-width:43.125em) {
+                .image-container-div{
+                    width: 100vw;
+                    height: 90vh;
+                
+                }   
+            }
             .image-container-div img{
             width: 100%;
             height: 100%;
@@ -75,7 +129,7 @@ background-color:#FFFFFF;
     }
 
             .right-side-content-holders{
-                height: 40rem;
+                height: max-content;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -85,12 +139,22 @@ background-color:#FFFFFF;
                 text-align: center;
                 font-size: 4rem;
                 }
+                @media screen and (max-width:43.125em) {
+                    .about-title-heading{
+                        text-align: center;
+                        font-size: 2.5rem;
+                        }
+                }
 
 
-                
-                
+            
                 .second-title-heading{
                     text-align: center;
+                    }
+                    @media screen and (max-width:43.125em) {
+                        .second-title-heading{
+                            font-size: 1.5rem;
+                            }
                     }
 
                     .bottom-text-items{
@@ -106,6 +170,23 @@ background-color:#FFFFFF;
                                 font-size: 1.5rem;
                                 }
                         }
+                        @media screen and (max-width:43.125em) {
+                            .about-paragraph{
+                                font-size: 2rem;
+                                }
+                        }
+                        @media screen and (max-width:31.25em) {
+                            .about-paragraph{
+                                font-size: 1.5rem;
+                                }
+                        }
+                        @media screen and (max-width:43.125em) {
+                            .btn-read-container{
+                         width: max-content;
+                         margin: auto;
+                            }
+                        }
+                        
                         .read-more-btn{
                         background-color: #B10707;
                         color: white;
@@ -113,6 +194,12 @@ background-color:#FFFFFF;
                         padding: 1rem;
                         width: 15rem;
                         font-weight: bold;
+                        }
+                        @media screen and (max-width:26.25em){
+                            .read-more-btn{
+                                font-size: 1.5rem;
+                                width: 10rem;
+                            }
                         }
 /*
 @media screen and (max-width:43.75em){

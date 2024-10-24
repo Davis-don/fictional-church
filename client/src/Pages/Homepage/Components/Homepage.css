@@ -76,6 +76,19 @@ left: 90vw;
 
 /* Start of about section */
 .about-section{
+position:relative
+}
+.read-more-container{
+  position: fixed;
+  z-index: +3;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  background-color:rgb(226, 221, 221);
+  width: 90vw;
+  height: max-content;
+  padding: 2rem;
+  top: 30vh;
 
 }
 
