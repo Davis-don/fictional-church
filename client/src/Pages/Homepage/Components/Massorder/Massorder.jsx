@@ -3,7 +3,7 @@ import './Massorder.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bible1 from '../../../../assets/swahili.jpg'
 import Bible2 from '../../../../assets/english.jpg'
-import Bible3 from '../../../../assets/Kikuyu.jpg'
+import Bible3 from '../../../../assets/kikuyu.jpg'
 
 function Massorder() {
   return (
