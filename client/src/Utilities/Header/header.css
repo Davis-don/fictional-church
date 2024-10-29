@@ -20,8 +20,10 @@ flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 
 }
+
 .logo-icon{
 width: 5rem;
 height: 5rem;
@@ -36,6 +38,18 @@ height: 5rem;
 }
 .logo-name{
 font-size: 2rem;
+}
+@media screen and (max-width:28.125em) {
+  .logo-name{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width:18.125em) {
+  .logo-name{
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 .right-header{
 display: flex;
