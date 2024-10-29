@@ -17,6 +17,8 @@ padding: 2rem;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+gap: 2rem;
+    flex-wrap: wrap;
 }
 .about-nav-links{
 display: flex;
