@@ -19,13 +19,13 @@ function Header() {
         </div>
         <div className="logo-name-right">
           <ul className="list-unstyled nav-links-ul">
-          <li className="link-item"><Link to = '/'>Home</Link></li>
-            <li className="link-item"><Link to = '/about'>About</Link></li>
-            <li className="link-item">Churches</li>
-            <li className="link-item">Catechism</li>
-            <li className="link-item">Events</li>
-            <li className="link-item">Gallery</li>
-            <li className="link-item">Contact</li>
+          <li className="link-item"><Link  to = '/'>HOME</Link></li>
+            <li className="link-item"><Link to = '/about'>ABOUT</Link></li>
+            <li className="link-item"><Link to = '/sermons'>SERMONS</Link></li>
+            <li className="link-item"><Link to = '/events'>EVENTS</Link></li>
+            <li className="link-item"><Link to = '/churches'>CHURCHES</Link></li>
+            <li className="link-item"><Link to = '/contact'>CONTACT</Link></li>
+            
             <li>
               <button
                 style={{

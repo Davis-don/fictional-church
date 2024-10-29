@@ -1,11 +1,12 @@
 import React from 'react'
 import './aboutpage.css'
-import Hero from './Hero/Hero'
 import Essence from './Essence/Essence'
+import Hero from '../../Utilities/Hero/Hero'
+import abthero from '../../assets/footer.jpg'
 function Aboutpage() {
   return (
     <div className='overall-aboutpg-container'>
-        <Hero/>
+        <Hero page="About" imgsrc = {abthero}/>
         <Essence/>
         </div>
   )

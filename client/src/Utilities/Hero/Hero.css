@@ -1,8 +1,6 @@
 .ovearall-about-hero-container{
     height: 20rem;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('../../../assets/footer.jpg');
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/footer.jpg");
     background-size: cover; 
     background-position: center;   
     display: flex;
