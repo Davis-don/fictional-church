@@ -17,8 +17,8 @@ function Footer() {
       </div> 
       <ul className='list-unstyled ul-list-footer'>
         <li ><span><FaLocationDot className='text-danger fs-4 m-1' /></span><span className='text-light fs-5'>10100 Kamakwa Rd, Nyeri, Kenya</span></li>
-        <li><span><IoIosCall className='text-danger fs-4 m-1'/></span><span className='text-light fs-5'>+1 234 800 8080</span></li>
-        <li><span><IoIosMail className='text-danger fs-4 m-1'/></span><span className='text-light fs-5'>info.deercreative@gmail.com </span></li>
+        <li><span><IoIosCall className='text-danger fs-4 m-1'/></span><span className='text-light fs-5'>+254 702 722 812</span></li>
+        <li><span><IoIosMail className='text-danger fs-4 m-1'/></span><span className='text-light fs-5'>info@tetucatholic.org </span></li>
       </ul>
      </div>
         </div>

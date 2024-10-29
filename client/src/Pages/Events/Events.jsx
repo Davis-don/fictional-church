@@ -1,7 +1,7 @@
 import React from 'react'
 import './events.css'
 import Hero from '../../Utilities/Hero/Hero'
-import Eventsimg from '../../assets/footer.jpg'
+import Eventsimg from '../../assets/events.jpg'
 
 function Events() {
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 import './sermons.css'
 import Hero from '../../Utilities/Hero/Hero'
 import './sermons.css'
-import sermonsImg from '../../assets/footer.jpg'
+import sermonsImg from '../../assets/english.jpg'
 function Sermons() {
   return (
     <div className='overall-sermons-page-overall'>
