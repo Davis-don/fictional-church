@@ -3,6 +3,7 @@ import "./header.css";
 import logo from "../../assets/Guardian Angel.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CiMenuBurger } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -18,8 +19,8 @@ function Header() {
         </div>
         <div className="logo-name-right">
           <ul className="list-unstyled nav-links-ul">
-            <li className="link-item">Home</li>
-            <li className="link-item">About</li>
+          <li className="link-item"><Link to = '/'>Home</Link></li>
+            <li className="link-item"><Link to = '/about'>About</Link></li>
             <li className="link-item">Churches</li>
             <li className="link-item">Catechism</li>
             <li className="link-item">Events</li>
