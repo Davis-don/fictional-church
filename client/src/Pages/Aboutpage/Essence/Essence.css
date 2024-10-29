@@ -1,0 +1,18 @@
+.essence-section-overall{
+height: max-content;
+background-color: black;
+
+}
+
+.essence-section-overall{
+display:grid;
+grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+gap: 2rem;
+}
+@media screen and (max-width:14.375em){
+    .essence-section-overall{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}

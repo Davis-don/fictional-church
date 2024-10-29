@@ -1,0 +1,21 @@
+.overall-essence-card{
+height: max-content;
+padding: 2rem;
+box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5); /* White shadow effect */
+}
+.essence-icon-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.essence-icon{
+font-size: 4rem;
+}
+.essence-text-box h1{
+text-align: center;
+font-size: 2rem;
+}
+.essence-text-box p{
+text-align: center;
+font-size: 1.5rem;
+}
