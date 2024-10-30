@@ -6,6 +6,7 @@ import abthero from '../../assets/footer.jpg'
 import History from './History/History'
 import Fathers from './Fathers/Fathers'
 import Gallery from './Galleries/Gallery'
+import Leadership from './Leadership/Leadership'
 function Aboutpage() {
   return (
     <div className='overall-aboutpg-container'>
@@ -14,6 +15,8 @@ function Aboutpage() {
         <Fathers/>
         <Essence/>
         <Gallery/>
+        <Leadership/>
+
         </div>
   )
 }

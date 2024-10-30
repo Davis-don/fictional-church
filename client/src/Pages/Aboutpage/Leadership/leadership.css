@@ -1,0 +1,24 @@
+.overall-leadership-container{
+
+}
+.Our-leaders-h{
+text-align: center;
+}
+.overall-leadership-container p{
+text-align: center;
+}
+.leaders-card-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+gap: 2rem;
+padding: 2rem;
+}
+@media screen and (max-width:21.875em) {
+    .leaders-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.overall-leadership-container h1{
+text-align: center;
+}
