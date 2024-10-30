@@ -1,5 +1,5 @@
 import React from 'react'
-import './Leadershipcard.css'
+import './leadershipcard.css'
 
 function Leadershipcard({image,name,role}) {
   return (
