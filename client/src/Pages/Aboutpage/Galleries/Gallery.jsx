@@ -1,6 +1,6 @@
 import React from 'react'
 import './gallery.css'
-import Gallerycard from './gallerycard'
+import Gallerycard from './Gallerycard'
 import galleryData from './dummydata'
 
 function Gallery() {
