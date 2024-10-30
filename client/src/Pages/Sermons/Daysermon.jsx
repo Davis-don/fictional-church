@@ -16,8 +16,6 @@ function Daysermon() {
              On: 08 MAR 2018,
              </p>
              <p className='text-secondary sermon-content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at convallis justo. Suspendisse ut nisl diam. Sed non vehicula sem. Etiam efficitur eros a leo mollis, interdum sodales erat ultricies. Pellentesque in felis sem. Phasellus nunc tellus, suscipit rutrum risus quis, aucibus vel ipsumeu.</p>
-             
-
         </div>
         </div>
   )
