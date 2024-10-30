@@ -1,0 +1,67 @@
+.oveerall-sermonday-section{
+    padding: 2rem;
+
+}
+@media screen and (max-width:25em) {
+    .oveerall-sermonday-section{
+        padding: 0px;
+        margin-top: 2rem;
+    
+    }   
+}
+.oveerall-sermonday-section h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.day-p{
+    text-align: center;
+}
+.day-sermon-image{
+width: 60rem;
+height: 30rem;
+margin: auto;
+}
+@media screen and (max-width:56.25em){
+    .day-sermon-image{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:25em) {
+    .day-sermon-image{
+        width: 100vw;
+    }   
+}
+
+.day-sermon-image img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.sermon-text-box{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 2rem;
+width: 70vw;
+margin: auto;
+}
+@media screen and (max-width:56.25em){
+.sermon-text-box{
+width: 90vw;
+}
+}
+@media screen and (max-width:25em) {
+    .sermon-text-box{
+        width: 100vw;
+    }
+}
+.sermon-title{
+    font-size: 2.3rem;
+}
+.preacher-detail{
+font-size: 1.3rem;
+}
+.sermon-content{
+font-size: 1.5rem;
+}
