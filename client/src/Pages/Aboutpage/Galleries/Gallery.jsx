@@ -1,6 +1,6 @@
 import React from 'react'
 import './gallery.css'
-import Gallerycard from './Gallerycard'
+import GalleryCard from './GalleryCard';
 import galleryData from './dummydata'
 
 function Gallery() {
@@ -9,7 +9,7 @@ function Gallery() {
         <h1>Gallery</h1>
         <div className="gallery-cards-overall">        
     {
-        galleryData.map((content)=><Gallerycard image={content.image} date={content.date} title={content.title} description={content.description}/>)
+        galleryData.map((content)=><GalleryCard image={content.image} date={content.date} title={content.title} description={content.description}/>)
     }
     </div>
         </div>
