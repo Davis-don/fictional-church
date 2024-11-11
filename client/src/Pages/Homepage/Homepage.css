@@ -7,6 +7,14 @@ width: 100%;
 height: 87vh;
 position: relative;
 }
+.on-carosel-opacity-regulator{
+position: absolute;
+z-index: +2;
+background-color: black;
+width: 100%;
+height: 100%;
+opacity: .1;
+}
 .carosel-container{
 position: absolute;
 z-index:+1;
