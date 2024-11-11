@@ -2,7 +2,7 @@ import React from 'react'
 import './Essence.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Essencecard from './Concern/Essencecard'
-import Essencedata from '../../../Data/Essencedata'
+import Essencedata from '../../Data/Essencedata'
 
 function Essence() {
   return (

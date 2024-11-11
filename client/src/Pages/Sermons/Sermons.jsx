@@ -1,10 +1,10 @@
 import React from 'react'
 import './sermons.css'
-import Hero from '../../Utilities/Hero/Hero'
+import Hero from '../../components/Hero/Hero'
 import './sermons.css'
 import sermonsImg from '../../assets/english.jpg'
-import Daysermon from './Daysermon'
-import Quote from './Quote/Quote'
+import Daysermon from '../../components/Sermon/Daysermon'
+import Quote from '../../components/Quote/Quote'
 function Sermons() {
   return (
     <div className='overall-sermons-page-overall'>

@@ -1,12 +1,12 @@
 import React from 'react'
 import './aboutpage.css'
-import Essence from './Essence/Essence'
-import Hero from '../../Utilities/Hero/Hero'
+import Essence from '../../components/Essence/Essence'
+import Hero from '../../components/Hero/Hero'
 import abthero from '../../assets/footer.jpg'
-import History from './History/History'
-import Fathers from './Fathers/Fathers'
-import Gallery from './Galleries/Gallery'
-import Leadership from './Leadership/Leadership'
+import History from '../../components/History/History'
+import Fathers from '../../components/Fathers/Fathers'
+import Gallery from '../../components/Galleries/Gallery'
+import Leadership from '../../components/Leadership/Leadership'
 function Aboutpage() {
   return (
     <div className='overall-aboutpg-container'>

@@ -1,0 +1,102 @@
+.ovearall-contact-us-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+padding: 2rem;
+}
+@media screen and (max-width:40em) {
+    .ovearall-contact-us-container{
+        display: flex;
+        flex-direction: column;
+    }  
+}
+.left-section-contact{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.contact-ul{
+width: max-content;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+
+}
+.contact-ul li{
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+@media screen and (max-width:16.875em) {
+    .contact-ul li{
+    display: flex;
+    flex-direction: column;
+    }
+}
+.icon-contact{
+background-color: rgb(234, 194, 194);
+width: max-content;
+height: max-content;
+padding: .5rem;
+}
+.text-contact{
+    margin-top: .7rem;
+}
+.text-contact p{
+    font-size:1.5rem;
+} 
+@media screen and (max-width:18.75em){
+    .text-contact p{
+    font-size: 1.2rem;
+    }   
+}
+@media screen and (max-width:12.5em) {
+    .text-contact p{
+        font-size: 6vw;
+        }   
+}
+.right-section-contact{
+ margin-top: 2rem;   
+
+}
+@media screen and (max-width:18.75em) {
+    .right-section-contact h2{
+    text-align: center;
+
+    }   
+}
+
+.top-form{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+gap: 3rem;
+}
+
+.input-field{
+height: 4rem;
+font-size: 1.3rem;
+text-align: center;
+}
+.send-mes-text{
+margin-top: 4rem;
+height: 10rem;
+font-size: 1.5rem;
+}
+.send-mess-btn{
+background-color: rgb(100, 19, 19);
+margin-top: 2rem;
+width: 20rem;
+height: 4rem;
+font-size: 1.5rem;
+font-weight: bold;
+}
+@media screen and (max-width:18.75em) {
+.send-mess-btn{
+width:max-content;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1rem;
+}
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./carosel.css";
-import caroselDataHero from "../../../../../Data/caroselhero";
+import caroselDataHero from "../../Data/caroselhero";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Carosel() {

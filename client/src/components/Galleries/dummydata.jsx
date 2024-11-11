@@ -1,4 +1,4 @@
-import imageTest from '../../../assets/english.jpg'
+import imageTest from '../../assets/english.jpg'
 const galleryData = [
     {
         image:imageTest,

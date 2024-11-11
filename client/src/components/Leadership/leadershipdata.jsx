@@ -1,6 +1,6 @@
-import head1 from '../../../assets/head1.jpg'
-import head2 from '../../../assets/head2.jpg'
-import head3 from '../../../assets/head3.jpg'
+import head1 from '../../assets/head1.jpg'
+import head2 from '../../assets/head2.jpg'
+import head3 from '../../assets/head3.jpg'
 let leaders=[
     {
         img:head1,

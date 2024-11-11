@@ -1,7 +1,7 @@
 import React from "react";
 import "./abouthmpg.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import fatherImg from "../../../../assets/father-img.jpg";
+import fatherImg from "../../assets/father-img.jpg";
 
 function Abouthomepg() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import './countercards.css'
 import Countercard from './Countercard'
-import counterData from '../../../../Data/counterdata'
+import counterData from '../../Data/counterdata'
 
 function Countercards() {
   return (

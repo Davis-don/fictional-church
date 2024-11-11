@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import './Homepage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carosel from './Hero/Carosel/Carosel';
+import Carosel from '../../components/Carosel/Carosel';
 import { FaArrowDown } from "react-icons/fa";
-import Abouthomepg from './Aboutsection/Abouthomepg';
-import Countercards from './Aboutsection/Countercards';
-import Massorder from './Massorder/Massorder';
+import Abouthomepg from '../../components/Aboutsection/Abouthomepg';
+import Countercards from '../../components/Aboutsection/Countercards';
+import Massorder from '../../components/Massorder/Massorder';
 
 function Homescreen() {
   
