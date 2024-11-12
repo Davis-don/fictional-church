@@ -1,11 +1,14 @@
 import React from "react";
 import "./header.css";
-import logo from "../../assets/Guardian Angel.jpg";
+import logo from "../../../assets/Guardian Angel.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import useSideStateStore from "../../../Store/sidebarState";
 
 function Header() {
+  const setSidbarTrue = useSideStateStore((state)=>state.sidebarToggle)
+  const currentState = useSideStateStore((state)=>state.isSidebarOpen)
   return (
     <div className="overall-header-container">
       <div className="left-header">
@@ -17,7 +20,7 @@ function Header() {
      </div>
       </div>
       <div className="right-header">
-        <div className="menu-icon">
+        <div onClick={()=>setSidbarTrue()}  className="menu-icon">
           <CiMenuBurger className="actual-menu-icon"/>
         </div>
         <div className="nav-links">

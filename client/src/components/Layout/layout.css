@@ -1,0 +1,31 @@
+/* layout.css */
+.layout {
+    display: flex;
+    flex-direction: column;  /* Stack header on top, sidebar and main content below */
+    height: 100vh;  /* Full viewport height */
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;  /* Stack sidebar and main content vertically */
+    position: relative;  /* Make the content-wrapper position relative */
+  }
+  
+  .sidebar-layout {
+    position: fixed;
+    z-index: +2;
+  }
+  @media screen and (min-width:31.25em) {
+    .sidebar-layout{
+    display: none;
+    }
+  }
+  .main-content {
+    position: absolute;
+    z-index: +1;
+    
+  }
+  
+  
+  
+  
