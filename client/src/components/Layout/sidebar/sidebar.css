@@ -26,4 +26,9 @@ gap: 1rem;
 .overall-sidebar-container ul li{
 color:black;
 font-size: 1.5rem;
+text-align: center;
+}
+
+.active-sidebar{
+border-bottom: 1px solid black;
 }

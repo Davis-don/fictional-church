@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 
 const useSideStateStore = create((set) => ({
-  isSidebarOpen: true,
+  isSidebarOpen: false,
   sidebarToggle: () => set((state) => ({ isSidebarOpen: !state.isSidebarOpen }))
 }));
 
