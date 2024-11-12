@@ -1,13 +1,15 @@
 import React from 'react'
 import './footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import logo from '../../assets/Guardian Angel.jpg'
+import logo from '../../../assets/Guardian Angel.jpg'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosCall ,IoIosMail } from "react-icons/io";
 import { FaTwitter,FaFacebookF } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 
 function Footer() {
+  const navigate = useNavigate()
   return (
     <div className='overall-footer-section'>
         <div className="left-footer footer-card">
@@ -24,16 +26,51 @@ function Footer() {
         </div>
         <div className="center-footer footer-card">
       <h1 className='text-light'>Guardian Angels Tetu Catholic Parish</h1>
-      <ul  className='list-unstyled links-ul-footer'>
-        <li className='text-light'>Home</li>
-        <li className='text-light'>About</li>
-        <li className='text-light'>Events</li>
-        <li className='text-light'>Gallery</li>
-        <li className='text-light'>Contact</li>
-        <li className='text-light'>Churches</li>
-        <li className='text-light'>Catechism</li>
+      <ul className='list-unstyled links-ul-footer'>
+  <li
+    style={window.location.pathname === '/' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('/')}
+  >
+    Home
+  </li>
+  <li
+    style={window.location.pathname === '/about' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('about')}
+  >
+    About
+  </li>
+  <li
+    style={window.location.pathname === '/sermons' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('/sermons')}
+  >
+    Sermons
+  </li>
+  <li
+    style={window.location.pathname === '/events' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('/events')}
+  >
+    Events
+  </li>
+  <li
+    style={window.location.pathname === '/contact' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('/contact')}
+  >
+    Contact
+  </li>
+  <li
+    style={window.location.pathname === '/churches' ? { textDecoration: 'underline' } : {}}
+    className='text-light'
+    onClick={()=>navigate('/churches')}
+  >
+    Churches
+  </li>
+</ul>
 
-      </ul>
         </div>
         <div className="right-footer footer-card">
           <ul className='list-unstyled icons-ul-contact-footer'>

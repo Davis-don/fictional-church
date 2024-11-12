@@ -8,7 +8,6 @@ import useSideStateStore from "../../../Store/sidebarState";
 
 function Header() {
   const setSidbarTrue = useSideStateStore((state)=>state.sidebarToggle)
-  const currentState = useSideStateStore((state)=>state.isSidebarOpen)
   return (
     <div className="overall-header-container">
       <div className="left-header">

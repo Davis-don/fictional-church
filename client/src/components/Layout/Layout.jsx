@@ -3,6 +3,7 @@ import Header from './Header/Header'
 import Sidebar from './sidebar/sidebar'
 import './layout.css'
 import useSideStateStore from '../../Store/sidebarState'
+import Footer from './Footer/Footer'
 
 function Layout({children}) {
     const currentState = useSideStateStore((state)=>state.isSidebarOpen)
@@ -17,8 +18,12 @@ function Layout({children}) {
             }
         
         </div> 
-      <main className="main-content">{children}</main>
+      <main className="main-content">
+        {children}
+        <Footer/>
+        </main>
     </div>
+   
   </div>
   )
 }

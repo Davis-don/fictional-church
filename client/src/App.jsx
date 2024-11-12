@@ -1,7 +1,5 @@
 import "./App.css";
 import Homescreen from "./Pages/Homepage/Homescreen";
-
-import Footer from "./components/Footer/Footer";
 import Aboutpage from "./Pages/Aboutpage/Aboutpage";
 import Sermons from "./Pages/Sermons/Sermons";
 import Events from "./Pages/Events/Events";
